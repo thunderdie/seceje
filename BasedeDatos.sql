@@ -32,7 +32,7 @@
 		);
 	insert into usuario(
 		nombre,apellido,dni,telefono,edad,imagen,sexo,email,usuario,password,fecha,fecha_modeficacion,activo,admin,publico)
-	value("admin","admin","70933255","","","","","","admin","90b9aa7e25f80cf4f64e990b78a9fc5ebd6cecad",NOW(),"","1","1","");
+	value("admin","admin","73194743","","","","","","admin","seceje135",NOW(),"","1","1","");
 	create table institucion(
 		id_institucion int primary key auto_increment not null,
 		usuario_id int,
