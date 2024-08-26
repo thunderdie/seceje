@@ -31,8 +31,8 @@
 		foreign key (area_oficina_id) references area_oficina(id_area_oficina)
 		);
 	insert into usuario(
-		nombre,apellido,dni,telefono,edad,imagen,sexo,email,usuario,password,fecha,fecha_modeficacion,activo,admin,publico)
-	value("admin","admin","73194743","","","","","","admin","seceje135",NOW(),NOW(),"1","1","");
+		nombre,apellido,dni,telefono,edad,imagen,sexo,email,usuario,password,fecha,fecha_modeficacion,activo,admin)
+	value("admin","admin","73194743","","","","","","admin","seceje135",NOW(),NOW(),"1","1");
 	create table institucion(
 		id_institucion int primary key auto_increment not null,
 		usuario_id int,
