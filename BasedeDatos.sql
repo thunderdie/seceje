@@ -1,6 +1,6 @@
 -- create database repositorio;
-	-- use repositorio;
-	-- set sql_mode='';
+	--use repositorio;
+	set sql_mode='';
 
 	create table area_oficina(
 		id_area_oficina int primary key auto_increment not null,
