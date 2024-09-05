@@ -1,5 +1,5 @@
--- create database repositorio;
-	--use repositorio;
+	create database repositorio;
+	use repositorio;
 	set sql_mode='';
 
 	create table area_oficina(
